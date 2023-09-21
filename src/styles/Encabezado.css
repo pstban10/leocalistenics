@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedorEncabezado {
+  min-width: 100vh;
+  min-height: 70vh;
+  background-image: url('../imagenes/portada.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 800;
+  margin: 20px;
+}
+
+.botonComencemos {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgba(241, 241, 0, 0.795);
+  color: #000;
+  padding: 15px;
+  border-radius: 25px;
+  transition: color 0.3s;
+}
+
+button:hover {
+  color: #fff;
+  cursor: pointer;
+}

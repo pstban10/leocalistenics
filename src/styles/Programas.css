@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedorProgramas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.apartado {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.apartado img {
+  height: 500px;
+  width: auto;
+}
+
+.apartado h2 {
+  align-items: center;
+  color: #fff;
+}

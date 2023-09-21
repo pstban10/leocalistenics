@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.acceder {
+  padding: 0px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.textoAcceder {
+  margin: 2rem;
+  color: #808080;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenidoAcceder {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.formulario {
+  margin: 4rem;
+  width: 40%;
+
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #808080;
+  color: white;
+}
+
+/* Estilo para los botones */
+button {
+  cursor: pointer;
+}
+
+/* Estilo para los labels */
+label {
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Alineación justificada */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Alineación de los elementos del formulario */
+.form-content {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}

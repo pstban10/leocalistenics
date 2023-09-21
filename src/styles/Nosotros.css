@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Nosotros {
+  padding: 0px 10px;
+}
+
+.contenedorInfo {
+
+  margin: 3rem 2rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.textoInfo {
+  margin: 1.5rem;
+  padding: 2rem;
+  color: #fff;
+  text-align: justify;
+}
+
+.textoInfo h2 {
+  color: #808080;
+  text-align: center;
+  font-weight: 400;
+}
+
+.textoInfo p {
+  font-weight: 200;
+}
+
+.textoInfo li {
+  list-style: none;
+
+}
